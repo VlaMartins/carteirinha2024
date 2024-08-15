@@ -1,0 +1,45 @@
+        body{
+            line-height: 1.5;
+            text-align: center;
+            font-size: 18px;
+            font-family: Helvetica;
+            background-color: black;
+        }
+
+        h1, h3{
+            color: whitesmoke;
+            font-family: Lucida Sans;
+        }
+
+        form{
+            background-color: blanchedalmond;
+            max-width: 80%;
+            margin: auto;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        input,select{
+            display: block;
+            margin: auto;
+            font-style: italic;
+            font-size: 17px;
+            font-family: Calibri;
+            color: darkblue;
+            background-color:antiquewhite ;
+            height: 30px;
+            text-align: center;
+        }
+
+        input[type=submit]{
+            font-style: normal;
+        }
+
+        .maiuscula{
+            text-transform: uppercase;
+        }
+
+        input[type=radio]{
+            display: flex;
+            display: inline;
+        }
